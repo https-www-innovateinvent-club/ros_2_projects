@@ -107,5 +107,3 @@ echo "export ROS_DOMAIN_ID=10" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-> [!NOTE]
-> Ensure you use `export` for the environment variable.
