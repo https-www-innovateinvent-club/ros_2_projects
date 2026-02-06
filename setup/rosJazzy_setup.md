@@ -96,14 +96,4 @@ This guide provides step-by-step instructions for installing ROS Jazzy on WSL2 U
    ros2 run demo_nodes_py listener
    ```
 
-## Additional Configuration
-
-### Set ROS Domain ID
-
-To isolate your ROS traffic, you can set a `ROS_DOMAIN_ID`:
-
-```bash
-echo "export ROS_DOMAIN_ID=10" >> ~/.bashrc
-source ~/.bashrc
-```
 
